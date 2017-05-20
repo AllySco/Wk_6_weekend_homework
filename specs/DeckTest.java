@@ -19,3 +19,4 @@ public class DeckTest{
   public void deckHas52Cards(){
     assertEquals( 52, this.deck.getDeck().size() );
   }
+}
