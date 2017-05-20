@@ -5,7 +5,7 @@ public class Card {
   private SuitType suit;
   private int rank;
 
-  public Card(SuitType suit , int rank) {
+  public Card(int rank, SuitType suit) {
     this.suit = suit;
     this.rank = rank;
   }

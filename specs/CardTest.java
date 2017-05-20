@@ -13,7 +13,7 @@ public class CardTest{
 
     @Test
     public void cardHasRank(){
-      assertEquals( 1,card1.getRank() );
+      assertEquals( 2,card1.getRank() );
     }
 
     @Test
@@ -23,7 +23,7 @@ public class CardTest{
 
     @Test
     public void hasDescription(){
-      assertEquals( "Two of SPADES",card1.description() );
+      assertEquals( "Two of SPADES",card1.cardRank() );
     }
 
 }

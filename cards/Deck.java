@@ -16,7 +16,7 @@ public class Deck{
 
   public void buildDeck(){
     for (int i=1; i<14; i++) {
-      for(Suit suit : Suit.values()){
+      for(SuitType suit : SuitType.values()){
         deck.add(new Card(i, suit));
       }
     }
